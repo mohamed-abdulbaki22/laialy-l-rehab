@@ -1,0 +1,438 @@
+{
+  "ClothesPosts": [
+    {
+      "id": "1",
+      "author": "organiztion1",
+      "img": "src/assets/shirt.jpg",
+      "type": "shirt",
+      "gender": "male",
+      "age": "30-40",
+      "season": "summer",
+      "material": "cotton",
+      "quantity requested": 0
+    },
+    {
+      "id": "2",
+      "author": "organiztion2",
+      "img": "src/assets/fjacket.jpg",
+      "type": "jacket",
+      "gender": "female",
+      "age": "20-30",
+      "season": "winter",
+      "material": "wool",
+      "quantity requested": 1
+    },
+    {
+      "id": "3",
+      "author": "organiztion3",
+      "img": "src/assets/pants.jpg",
+      "type": "pants",
+      "gender": "female",
+      "age": "18-20",
+      "season": "spring",
+      "material": "cotton",
+      "quantity requested": 2
+    },
+    {
+      "id": "4",
+      "author": "organiztion4",
+      "img": "src/assets/mjacket.jpg",
+      "type": "jacket",
+      "gender": "male",
+      "age": "40-50",
+      "season": "winter",
+      "material": "fur",
+      "quantity requested": 0
+    },
+    {
+      "id": "5",
+      "author": "organiztion5",
+      "img": "src/assets/Tshirt.jpg",
+      "type": "t-shirts",
+      "gender": "male",
+      "age": "15-18",
+      "season": "autumn",
+      "material": "polyester",
+      "quantity requested": 1
+    },
+    {
+      "id": "6",
+      "author": "organiztion6",
+      "img": "src/assets/mjacket.jpg",
+      "type": "jacket",
+      "gender": "male",
+      "age": "1-3",
+      "season": "winter",
+      "material": "fur",
+      "quantity requested": "4"
+    },
+    {
+      "id": "7",
+      "author": "organiztion7",
+      "img": "src/assets/pants.jpg",
+      "type": "pants",
+      "gender": "female",
+      "age": "5-7",
+      "season": "spring",
+      "material": "cotton",
+      "quantity requested": 12
+    },
+    {
+      "id": "8",
+      "author": "organiztion8",
+      "img": "src/assets/Tshirt.jpg",
+      "type": "t-shirts",
+      "gender": "female",
+      "age": "7-10",
+      "season": "autumn",
+      "material": "polyester",
+      "quantity requested": "6"
+    },
+    {
+      "id": "9",
+      "author": "organiztion8",
+      "img": "src/assets/Tshirt.jpg",
+      "type": "shirt",
+      "gender": "female",
+      "age": "10-15",
+      "season": "summer",
+      "material": "cotton",
+      "quantity requested": "12"
+    }
+  ],
+  "Cards": [
+    {
+      "id": "1",
+      "img": "http://example.com/image1-hd.jpg",
+      "title": "Card 1",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "img": "http://example.com/image2-hd.jpg",
+      "title": "Card 2",
+      "description": "This is the second card description."
+    }
+  ],
+  "SchoolPosts": [
+    {
+      "id": "1",
+      "author": "organiztion1",
+      "type": "book",
+      "name": "A",
+      "bookAuthor": "med7at",
+      "language": "arabic",
+      "edition": "2",
+      "summary": "did you read the first edition",
+      "img": "src/assets/book.jpg",
+      "quantity requested": 2
+    },
+    {
+      "id": "2",
+      "author": "organiztion2",
+      "type": "book",
+      "name": "b",
+      "bookAuthor": "alison",
+      "language": "portuguese",
+      "edition": "1",
+      "summary": "coming soon",
+      "img": "src/assets/book.jpg",
+      "quantity requested": 6
+    },
+    {
+      "id": "3",
+      "author": "organiztion2",
+      "type": "book",
+      "name": "c",
+      "bookAuthor": "trent",
+      "language": "english",
+      "edition": "4",
+      "summary": "did you read the first editions",
+      "img": "src/assets/book.jpg",
+      "quantity requested": "6"
+    },
+    {
+      "id": "4",
+      "author": "organiztion4",
+      "type": "book",
+      "name": "d",
+      "bookAuthor": "drogba",
+      "language": "arabic",
+      "edition": "1",
+      "summary": "coming soon",
+      "img": "src/assets/book.jpg",
+      "quantity requested": "1"
+    },
+    {
+      "id": "5",
+      "author": "organiztion5",
+      "type": "stationary",
+      "name": "notebook",
+      "img": "src/assets/notebooks.jpg",
+      "quantity requested": "7"
+    },
+    {
+      "id": "6",
+      "author": "organiztion6",
+      "type": "stationary",
+      "name": "pen",
+      "img": "src/assets/pen.jpg",
+      "quantity requested": 17
+    },
+    {
+      "id": "7",
+      "author": "organiztion7",
+      "type": "stationary",
+      "name": "markers",
+      "img": "src/assets/markers.jpg",
+      "quantity requested": "40"
+    }
+  ],
+  "ToysPosts": [
+    {
+      "id": "1",
+      "author": "organization1",
+      "type": "",
+      "age": "3-7",
+      "gender": "male",
+      "category": "board games",
+      "img": "src/assets/board.jpg",
+      "quantity requested": "4"
+    },
+    {
+      "id": "2",
+      "author": "organization2",
+      "type": "",
+      "age": "12-18",
+      "gender": "female",
+      "category": "stuffed toys",
+      "img": "src/assets/stuffed.jpg",
+      "quantity requested": "10"
+    },
+    {
+      "id": "3",
+      "author": "organization3",
+      "type": "",
+      "age": "1-3",
+      "gender": "female",
+      "category": "dolls",
+      "img": "src/assets/dolls.jpg",
+      "quantity requested": 3
+    },
+    {
+      "id": "4",
+      "author": "organization4",
+      "type": "",
+      "age": "18+",
+      "gender": "male",
+      "category": "sports",
+      "img": "src/assets/ball.jpg",
+      "quantity requested": "1"
+    },
+    {
+      "id": "5",
+      "author": "organization5",
+      "type": "",
+      "age": "7-12",
+      "gender": "male",
+      "category": "cars",
+      "img": "src/assets/cars.jpg",
+      "quantity requested": "7"
+    },
+    {
+      "id": "6",
+      "author": "organization6",
+      "type": "",
+      "age": "3-7",
+      "gender": "female",
+      "category": "outdoor",
+      "img": "src/assets/outdoor.jpg",
+      "quantity requested": 15
+    }
+  ],
+  "FoodPosts": [
+    {
+      "id": "1",
+      "author": "organiztion1",
+      "type": "fruit",
+      "name": "apple",
+      "img": "src/assets/apple.jpg",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": 1
+    },
+    {
+      "id": "2",
+      "author": "organiztion2",
+      "type": "fruit",
+      "name": "banana",
+      "img": "src/assets/banana.jpg",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": 5
+    },
+    {
+      "id": "3",
+      "author": "organiztion3",
+      "type": "cereal",
+      "name": "rice",
+      "img": "src/assets/rice.jpg",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": 2
+    },
+    {
+      "id": "4",
+      "author": "organiztion4",
+      "type": "baked goods",
+      "name": "bread",
+      "img": "src/assets/bread.jpg",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": "1"
+    },
+    {
+      "id": "5",
+      "author": "organiztion5",
+      "type": "fresh meals",
+      "name": "meat",
+      "img": "src/assets/meat.jpg",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": "7"
+    },
+    {
+      "id": "6",
+      "author": "organiztion6",
+      "type": "canned",
+      "name": "tuna",
+      "img": "src/assets/canned.jpg",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": 11
+    },
+    {
+      "id": "7",
+      "author": "organiztion7",
+      "type": "vegetables",
+      "name": "onion",
+      "img": "src/assets/onion.jpg",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": 10
+    }
+  ],
+  "MedicalPosts": [
+    {
+      "id": "1",
+      "type": "fruit",
+      "name": "apple",
+      "img": "",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": 8
+    },
+    {
+      "id": "2",
+      "type": "fruit",
+      "name": "banana",
+      "img": "",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": 5
+    },
+    {
+      "id": "3",
+      "type": "cereal",
+      "name": "rice",
+      "img": "",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": 3
+    },
+    {
+      "id": "4",
+      "type": "baked goods",
+      "name": "bread",
+      "img": "",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": "1"
+    },
+    {
+      "id": "5",
+      "type": "fresh meals",
+      "name": "meat",
+      "img": "",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": "7"
+    },
+    {
+      "id": "6",
+      "type": "canned",
+      "name": "tuna",
+      "img": "",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": "12"
+    },
+    {
+      "id": "7",
+      "type": "vegetables",
+      "name": "onion",
+      "img": "",
+      "note": "for fruits and  vegetables the amounts is in Kg for other items amount is by one",
+      "quantity requested": "11"
+    }
+  ],
+  "BloodPosts": [
+    {
+      "id": "1",
+      "author": "hospital1",
+      "type": "A+",
+      "nameOfPatient": "abdulbaki",
+      "hospital": "hospital1",
+      "img": "src/assets/blood.jpg",
+      "governorate": "cairo",
+      "area": "Al tagamo3",
+      "hospitalAddress": "address1",
+      "quantity requested": 2
+    },
+    {
+      "id": "2",
+      "author": "hospital2",
+      "type": "AB-",
+      "nameOfPatient": "med7at",
+      "hospital": "hospital2",
+      "img": "src/assets/blood.jpg",
+      "governorate": "other",
+      "area": "suez-canal",
+      "hospitalAddress": "address2",
+      "quantity requested": 4
+    },
+    {
+      "id": "3",
+      "author": "hospital3",
+      "type": "O-",
+      "nameOfPatient": "mahmoude",
+      "hospital": "hospital3",
+      "img": "src/assets/blood.jpg",
+      "governorate": "other",
+      "area": "sidy gaber",
+      "hospitalAddress": "address3",
+      "quantity requested": 2
+    },
+    {
+      "id": "4",
+      "author": "hospital4",
+      "type": "A-",
+      "nameOfPatient": "adham",
+      "hospital": "hospital4",
+      "img": "src/assets/blood.jpg",
+      "governorate": "cairo",
+      "area": "m3adi",
+      "hospitalAddress": "address4",
+      "quantity requested": "1"
+    },
+    {
+      "id": "5",
+      "author": "hospital5",
+      "type": "Ab+",
+      "nameOfPatient": "mazen",
+      "hospital": "hospital5",
+      "img": "src/assets/blood.jpg",
+      "governorate": "cairo",
+      "area": "october",
+      "hospitalAddress": "hospital5",
+      "quantity requested": "7"
+    }
+  ]
+}
