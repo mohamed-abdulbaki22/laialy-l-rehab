@@ -46,7 +46,7 @@ const Notification = () => {
 
   return (
     <div>
-      <button onClick={notify}>Notification</button>
+      <label onClick={notify} className="notification">Notification</label>
       <ToastContainer />
     </div>
   );

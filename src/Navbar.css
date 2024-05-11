@@ -167,3 +167,11 @@
     transform: scaleX(1); /* Fully visible */
 
   }
+
+  .notification{
+    cursor: pointer;
+    
+  }
+  .notification:hover{
+    transform: scaleX(1);
+  }

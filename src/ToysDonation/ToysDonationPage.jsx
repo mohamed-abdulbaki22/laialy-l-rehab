@@ -132,7 +132,14 @@ const ToysDonationPage = () => {
       
       {/* <Posts items={items} handleButtonClick={handleButtonClick} />    */}
       {error && <div>{error}</div>}
-      {isPending && <p>loading.... </p>}
+      {isPending && <div className="loader">
+          <l-waveform
+            size="35"
+            stroke="3.5"
+            speed="1"
+            color="black"
+          ></l-waveform>
+        </div>}
       {Toys && (
       
       <ToysGrid  
