@@ -67,10 +67,10 @@ const Nav = () => {
           Volunteering
           <ul className="dropdown-menu">
             <li>
-              <Link to="/Info">Teaching</Link>
+              <Link to="/teacher">Teaching</Link>
             </li>
             <li>
-              <Link to="/volunteering/clothes">Doctor</Link>
+              <Link to="/doctor">Doctor</Link>
             </li>
 
             {/* Add more features as needed */}

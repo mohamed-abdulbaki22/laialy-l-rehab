@@ -19,7 +19,8 @@ import BloodDetails from "./BloodDonation/BloodDetails.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DonationDetails from "./detailsOfDonation.jsx";
-
+import Doctor from './doctor.jsx'
+import Teacher from "./teacher.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -146,6 +147,14 @@ const router = createBrowserRouter([
     path: "Notification",
     element: <div></div>,
   },
+  {
+    path: "doctor",
+    element: <div><Doctor/></div>
+  },
+  {
+    path: "teacher",
+    element: <div><Teacher/></div>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

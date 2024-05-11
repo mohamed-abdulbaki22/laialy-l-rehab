@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './index.css'; // Import the index.css file
+import Nav from './Nav';
 
 const Doctor = () => {
     const [flag, setFlag] = useState(false);
@@ -14,8 +15,10 @@ const Doctor = () => {
     };
     
     return (
+      <>
+      <Nav/>
         <div className="doctor needs">
-        <h3>volunter as a doctor</h3>
+        <h2 className='heading'>Volunter As A Doctor</h2>
         <input
         type="file"
         name="documents"
@@ -40,7 +43,7 @@ const Doctor = () => {
         )}
         <button></button>
         </div>
-        
+        </>  
       );
 }
  
