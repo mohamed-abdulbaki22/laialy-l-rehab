@@ -332,6 +332,58 @@ label {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* Styles for the container */
+.teacher.needs,
+.doctor.needs {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
+/* Styles for headings */
+.teacher.needs h3,
+.doctor.needs h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Styles for input fields */
+.teacher.needs input,
+.doctor.needs input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Styles for buttons */
+.teacher.needs button,
+.doctor.needs button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Styles for the "Visit Location" button */
+.doctor.needs button:last-child {
+  margin-top: 10px;
+}
+
+/* Hover styles for buttons */
+.teacher.needs button:hover,
+.doctor.needs button:hover {
+  background-color: #0056b3;
+}
+
+/* Hide the "Visit Location" button by default */
+.doctor.needs button:last-child {
+  display: none;
+}
 
 
