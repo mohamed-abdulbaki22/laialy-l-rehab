@@ -39,7 +39,7 @@ const AdminNav = () => {
       
       </ul>
     
-      <Link to="/OrganizationLogin" className="log-out">Log out</Link>
+      <Link to="/" className="log-out">Log out</Link>
       {/* <img src={night} alt="" className="toggle_icon" /> */}
     </div>
   );

@@ -31,7 +31,7 @@ const Nav = () => {
       <img src={guc} alt="" className="logo" />
       <ul className="navbar-links">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/Home">Home</Link>
         </li>
         <li>
           <Notification />
@@ -64,7 +64,7 @@ const Nav = () => {
         <input type="text" placeholder="search by donation type" />
         <img src={search_white} alt="" onClick={handleSearch}/>
       </div>
-      <Link to="/OrganizationLogin" className="log-out">Log out</Link>
+      <Link to="/" className="log-out">Log out</Link>
       <div className="profile">
         {/* <input type="text" placeholder="search" /> */}
         <img src={myProfile} alt="" onClick={()=>{

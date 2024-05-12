@@ -61,7 +61,7 @@ const OrganizationDetails = () => {
                       <br />
                         <button
                           onClick={() => {
-                            window.location.href = "/"; // Redirect to the desired page
+                            window.location.href = "/Home"; // Redirect to the desired page
                           }}
                         >
                           Homepage 

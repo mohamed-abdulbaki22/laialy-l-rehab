@@ -69,13 +69,17 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <div>
-        <App />
+        <OrganizationLogin />
       </div>
     ),
   },
   {
     path: "OrganizationRegistraion",
     element: <div><OrganizationRegistraion /></div>,
+  },
+  {
+    path: "Home",
+    element: <div><App /></div>,
   },
   {
     path: "OrganizationLogin",

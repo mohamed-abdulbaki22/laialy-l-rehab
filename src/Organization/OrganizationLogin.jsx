@@ -31,24 +31,24 @@ const OrganizationLogin = () => {
     } else 
       if (formData.email === "donor@email" && formData.password === "donor") {
         // Redirect to the app page on successful login
-        window.location.href = "./";
+        window.location.href = "./Home";
       } 
     
     else 
       if (formData.email === "teacher@email" && formData.password === "teacher") {
         // Redirect to the app page on successful login
-        window.location.href = "./";
+        window.location.href = "./Home";
       } 
     
     else 
       if (formData.email === "doctor@email" && formData.password === "doctor") {
         // Redirect to the app page on successful login
-        window.location.href = "./";
+        window.location.href = "./Home";
       } 
       else 
         if (formData.email === "admin@email" && formData.password === "admin") {
           // Redirect to the app page on successful login
-          window.location.href = "./PasswordManagement";
+          window.location.href = "./AdminHomePage";
         }  
       else{
         setErrorMessage('Invalid email or password'); // Set error message

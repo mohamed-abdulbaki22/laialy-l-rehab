@@ -4,7 +4,7 @@ import useFetch from '../useFetch';
 import { useParams } from "react-router-dom";
 import "ldrs/ring";
 import "ldrs/waveform";
-
+import location from '../assets/map.jpg'
 
 const handleDelete = () => {
     alert('Organization Deleted');
