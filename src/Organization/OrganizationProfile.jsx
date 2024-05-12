@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import Nav from '../Nav';
+import OrganizationNav from './OrganizationNav';
 import "ldrs/ring";
 import "ldrs/waveform";
 
@@ -32,7 +32,7 @@ const OrganizationProfile = () => {
 
     return (
         <div>
-            <Nav />
+            <OrganizationNav />
             {isPending && (
                 <div className="loader">
                     <l-waveform size="35" stroke="3.5" speed="1" color="black"></l-waveform>

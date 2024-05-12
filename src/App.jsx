@@ -20,7 +20,7 @@ function App() {
       <h2 className="heading"> Completed Donations</h2>
       <div className="card-container">
         <Card
-          title="Clothes Donation"
+          title="Clothes"
           img="https://th.bing.com/th/id/OIP.4lILxx7gOtGR6VaiI-KquQHaE8?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
           description={
             <div>
@@ -29,10 +29,10 @@ function App() {
             </div>
           }
           id={1}
-          path="ClothesDonationPage"
+          path="CompletedDonation"
         />
         <Card
-          title="Blood Donation"
+          title="Blood"
           img="https://th.bing.com/th/id/OIP.4lILxx7gOtGR6VaiI-KquQHaE8?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
           description={
             <div>
@@ -41,10 +41,10 @@ function App() {
             </div>
           }
           id={2}
-          path="ClothesDonationPage"
+          path="CompletedDonation"
         />
         <Card
-          title="Clothes Donation"
+          title="Clothes"
           img="https://th.bing.com/th/id/OIP.4lILxx7gOtGR6VaiI-KquQHaE8?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
           description={
             <div>
@@ -53,13 +53,13 @@ function App() {
             </div>
           }
           id={3}
-          path="ClothesDonationPage"
+          path="CompletedDonation"
         />
       </div>
       <h2 className="heading"> Current Donations</h2>
       <div className="card-container">
         <Card
-          title="Food Donation"
+          title="Food"
           img="src/assets/meat.jpg"
           description={
             <div>
@@ -71,7 +71,7 @@ function App() {
           path="CurrentDetails"
         />
         <Card
-          title="Toy Donation"
+          title="Toys"
           img="src/assets/cars.jpg"
           description={
             <div>
@@ -83,7 +83,7 @@ function App() {
           path="CurrentDetails"
         />
         <Card
-          title="Stationary Donation"
+          title="School"
           img="src/assets/notebooks.jpg"
           description={
             <div>

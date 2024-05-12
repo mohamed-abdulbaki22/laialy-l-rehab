@@ -25,13 +25,35 @@ const OrganizationLogin = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Validation logic
-    if (formData.email === "user1@email" && formData.password === "password1") {
+    if (formData.email === "Organization@email" && formData.password === "Organization") {
       // Redirect to the app page on successful login
       window.location.href = "./OrgazizationHomePage";
-    } else {
-      setErrorMessage('Invalid email or password'); // Set error message
-    }
+    } else 
+      if (formData.email === "donor@email" && formData.password === "donor") {
+        // Redirect to the app page on successful login
+        window.location.href = "./";
+      } 
     
+    else 
+      if (formData.email === "teacher@email" && formData.password === "teacher") {
+        // Redirect to the app page on successful login
+        window.location.href = "./";
+      } 
+    
+    else 
+      if (formData.email === "doctor@email" && formData.password === "doctor") {
+        // Redirect to the app page on successful login
+        window.location.href = "./";
+      } 
+      else 
+        if (formData.email === "admin@email" && formData.password === "admin") {
+          // Redirect to the app page on successful login
+          window.location.href = "./PasswordManagement";
+        }  
+      else{
+        setErrorMessage('Invalid email or password'); // Set error message
+    
+      }
     
   };
   const handleDonor = () => {

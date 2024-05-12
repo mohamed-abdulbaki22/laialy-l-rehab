@@ -61,6 +61,8 @@ import PasswordManagement from './PasswordManagement.jsx'
 import RegOrganizationPage from './RegOrganizations/RegOrganizationPage.jsx'
 import RegDonorsPage from './RegDonors/RegDonorsPage.jsx'
 
+import CompletedDonation from "./CompletedDonation.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -220,6 +222,14 @@ const router = createBrowserRouter([
       <div>
         {" "}
         <DonationDetails />
+      </div>
+    ),
+  },
+  {
+    path: "CompletedDonation/:id",
+    element: (
+      <div>
+        <CompletedDonation />
       </div>
     ),
   },

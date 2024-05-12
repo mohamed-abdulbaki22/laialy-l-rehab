@@ -1,12 +1,12 @@
-import OrganizationNav from "./OrganizationNav";
+import Nav from "./Nav";
 import { useState } from "react";
-import useFetch from '../useFetch';
+import useFetch from './useFetch';
 import { useParams } from "react-router-dom";
 
 import "ldrs/ring";
 import "ldrs/waveform";
 
-const UpdateOrDeletePage = () => {
+const CompletedDonation = () => {
   const { id } = useParams();
   const {
     data: Data,
@@ -15,25 +15,10 @@ const UpdateOrDeletePage = () => {
   } = useFetch("http://localhost:4000/myposts/" + id);
   const [count, setCount] = useState(0)
 
-  // const updateDataInJson = async (id, updatedQuantity) => {
-  //     try {
-  //         await fetch(`http://localhost:4000/myosts/${id}`, {
-  //             method: 'PATCH', // or 'PUT' depending on your API
-  //             headers: {
-  //                 'Content-Type': 'application/json',
-  //             },
-  //             body: JSON.stringify({ "quantity requested": updatedQuantity }),
-  //         });
-  //         // Optionally, you can handle success or error here
-  //     } catch (error) {
-  //         console.error('Error updating Food:', error);
-  //         // Handle error
-  //     }
-  // };
 
   return (
     <div>
-      <OrganizationNav />
+      <Nav />
       <div className="info">
         {isPending && (
           <div className="loader">
@@ -62,7 +47,7 @@ const UpdateOrDeletePage = () => {
                 <div className="post-content">
                   <h2>{Data.type}s are required</h2>
                   <strong>Details:</strong>
-                  {Data.postType === "Clothes" && (
+                  {Data.title === "Clothes" && (
                     <div>
                       type: {Data.type}<br />
                       gender: {Data.gender}<br />
@@ -71,14 +56,14 @@ const UpdateOrDeletePage = () => {
                       material: {Data.material}
                     </div>
                   )}
-                  {Data.postType === "Food" && (
+                  {Data.title === "Food" && (
                     <div>
                       type: {Data.type}<br />
                       name: {Data.name}<br />
                       note: {Data.note}
                     </div>
                   )}
-                  {Data.postType === "Blood" && (
+                  {Data.title === "Blood" && (
                     <div>
                       type: {Data.type}<br />
                       name of patient: {Data.nameOfPatient}<br />
@@ -88,7 +73,7 @@ const UpdateOrDeletePage = () => {
                       hospital address: {Data.hospitalAddress}
                     </div>
                   )}
-                  {Data.postType === "Toys" && (
+                  {Data.title === "Toys" && (
                     <div>
                       type: {Data.type}<br />
                       gender: {Data.gender}<br />
@@ -96,7 +81,7 @@ const UpdateOrDeletePage = () => {
                       category: {Data.category}<br />
                     </div>
                   )}
-                  {Data.postType === "School" && (
+                  {Data.title === "School" && (
                     <div>
                       {Data.type === "book" && (
                         <div>
@@ -118,7 +103,7 @@ const UpdateOrDeletePage = () => {
                   )}
 
 
-                  {Data.postType === "Medical" && (
+                  {Data.title === "Medical" && (
                     <div>
                       type: {Data.type}<br />
                       name: {Data.name}<br />
@@ -134,7 +119,6 @@ const UpdateOrDeletePage = () => {
                     
                     <button onClick={() => {
                       window.location.href = "/"
-
                     }
                     }>Back</button>
                   </div>
@@ -148,4 +132,4 @@ const UpdateOrDeletePage = () => {
   );
 }
 
-export default UpdateOrDeletePage;
+export default CompletedDonation;
