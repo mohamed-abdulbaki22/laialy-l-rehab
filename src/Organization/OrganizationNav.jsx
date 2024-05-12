@@ -4,9 +4,10 @@ import "../Navbar.css";
 
 import search_white from "../assets/search-w.png";
 
-
+import Notification from "../Notification";
 import guc from "../assets/image.png";
 import { Link } from "react-router-dom";
+import myProfile from "../assets/myProfile.png";
 
 const OrganizationNav = () => {
   return (
@@ -14,7 +15,7 @@ const OrganizationNav = () => {
       <img src={guc} alt="" className="logo" />
       <ul className="navbar-links">
         <li><Link to="/OrgazizationHomePage">Home</Link></li>
-        <li><Link to="/Notification">Notification</Link></li>
+        <li><Notification/></li>
         {/* <li><Link to="/products">Products</Link></li> */}
         <li className="dropdown">
           Create Donations
@@ -28,15 +29,20 @@ const OrganizationNav = () => {
             {/* Add more features as needed */}
           </ul>
         </li>
-        <li><Link to="/DonationDropOff">Schedule Donation Drop-off</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/DonationDropOff">Schedule Drop-off</Link></li>
+        <li><Link to="/FulfilledPage">Fullfiled donations</Link></li>
       </ul>
       <div className="search-box">
         <input type="text" placeholder="search" />
         <img src={search_white} alt="" />
       </div>
-      <Link to="/" className="log-out">Log out</Link>
-      {/* <img src={night} alt="" className="toggle_icon" /> */}
+      <Link to="/OrganizationLogin" className="log-out">Log out</Link>
+      <div className="profile">
+        {/* <input type="text" placeholder="search" /> */}
+        <img src={myProfile} alt="" onClick={()=>{
+          window.location.href='OrganizationProfile'
+        }} />
+      </div>
     </div>
   );
 };

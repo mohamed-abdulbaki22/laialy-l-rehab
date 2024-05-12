@@ -13,7 +13,7 @@ function OrgazizationHomePage() {
     error,
   } = useFetch("http://localhost:4000/myposts");
     
-  const [type, setType] = useState("");
+ const [postType, setPostType] = useState(""); 
   
   const handleDelete = (id) => {
     const newBlogs = blogs.filter((blog) => blog.id !== id);
@@ -29,19 +29,19 @@ function OrgazizationHomePage() {
             <div className="filter-logic">
                 <label>filter by type:</label>
                 <select
-                  value={type}
+                  value={postType}
                   onChange={(e) => {
-                    setType(e.target.value);
+                    setPostType(e.target.value);
                     console.log("the chosen season", type);
                   }}
                 >
                   <option value="">All</option>
-                  <option value="fruit">fruits</option>
-                  <option value="vegetables">vegetables</option>
-                  <option value="canned">canned foods</option>
-                  <option value="fresh meals">fresh meals</option>
-                  <option value="baked goods">baked goods</option>
-                  <option value="cereal">cereal</option>
+                  <option value="Food">Food</option>
+                  <option value="Toys">Toys</option>
+                  <option value="School">School Spplies</option>
+                  <option value="Blood">Blood</option>
+                  <option value="Medical">baked Supplies</option>
+                  <option value="volunteer">volunteer posts</option>
                 </select>
             </div>
          </div>
@@ -52,7 +52,7 @@ function OrgazizationHomePage() {
         <OrganizationGrid
         crads={Data.filter(
           (item) =>
-            item.type.includes(type) 
+            (postType === "" || item.postType === postType) 
                
         )}
       />
