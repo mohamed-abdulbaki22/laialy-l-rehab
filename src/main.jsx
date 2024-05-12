@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+// Components
 import ClothesDonationPage from "./ClothesDonation/ClothesDonationPage.jsx";
 import ToysDonationPage from "./ToysDonation/ToysDonationPage.jsx";
 import SchoolDonationPage from "./SchoolDonation/SchoolDonationPage.jsx";
@@ -18,7 +21,6 @@ import MedicalDetails from "./MedicalDonation/MedicalDetails.jsx";
 import BloodDetails from "./BloodDonation/BloodDetails.jsx";
 
 import RegistrationForm from './Organization/RegistrationForm.jsx'
-
 import OrganizationRegistraion from './Organization/OrganizationRegistraion.jsx'
 import OrganizationLogin from './Organization/OrganizationLogin.jsx'
 import OrgazizationHomePage from './Organization/OrgazizationHomePage.jsx'
@@ -31,15 +33,6 @@ import CreateMedicalDonation from './Organization/CreateMedicalDonation.jsx'
 import DonationDropOff from './Organization/DonationDropOff.jsx'
 import UpdateOrDeletePage from './Organization/UpdateOrDeletePage.jsx'
 
-
-import ClothesDetails from './ClothesDonation/ClothesDetails.jsx'
-import SchoolDetails from './SchoolDonation/SchoolDetails.jsx'
-import ToysDetails from './ToysDonation/ToysDetails.jsx'
-import FoodDetails from './FoodDonation/FoodDetails.jsx'
-import MedicalDetails from './MedicalDonation/MedicalDetails.jsx'
-import BloodDetails from './BloodDonation/BloodDetails.jsx'
-
-
 import TeachingPage from './Teaching/TeachingPage.jsx'
 import DoctorPage from './MedicalCases/DoctorPage.jsx'
 import OrganizationPage from './Organizations/OrganizationPage.jsx'
@@ -49,7 +42,6 @@ import TeachingDetails from './Teaching/TeachingDetails.jsx'
 import DoctorDetails from './MedicalCases/DoctorDetails.jsx'
 import OrganizationDetails from './Organizations/OrganizationDetails.jsx'
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DonationDetails from "./detailsOfDonation.jsx";
 import Doctor from './doctor.jsx'
 import Teacher from "./teacher.jsx";
