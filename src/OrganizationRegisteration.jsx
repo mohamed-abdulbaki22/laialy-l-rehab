@@ -61,6 +61,25 @@ const OrganizationRegistraion = () => {
     try {
       // Make a POST request to the JSON server endpoint
 
+    
+      // const response = await fetch('http://localhost:4000/blogs'/*/TODO*replace blogs with the endpoint for the organization details/*/, {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json'
+      //   },
+      //   body: JSON.stringify(formData)
+      // });
+
+      // if (!response.ok) {
+      //   throw new Error('Failed to register organization');
+      // }
+
+
+
+      //------------------------the redirection--------------------------
+
+       window.location.href='/'
+
       // Clear form fields if registration is successful
       setFormData({
         email: '',
@@ -88,11 +107,7 @@ alert('Registration successful!');
   };
 
   return (
-    <div>
     <form className="form-container" onSubmit={handleSubmit}>
-    <h3 className="heading">
-            Create an Organization Representitive Account
-        </h3>
       {/* Input fields for user registration data */}
       <input
         type="email"
@@ -183,7 +198,7 @@ alert('Registration successful!');
         required
       />
       <input
-        type="text"
+        type="number"
         name="contactNo"
         placeholder="Contact number"
         value={formData.contactNo}
@@ -207,7 +222,6 @@ alert('Registration successful!');
       {/* Error message display */}
       {errorMessage && <div className="error-message">{errorMessage}</div>}
     </form>
-    </div>
   );
 };
 
