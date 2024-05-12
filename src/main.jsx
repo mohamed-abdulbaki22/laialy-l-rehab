@@ -45,7 +45,6 @@ import OrganizationDetails from './Organizations/OrganizationDetails.jsx'
 import DonationDetails from "./detailsOfDonation.jsx";
 import Doctor from './doctor.jsx'
 import Teacher from "./teacher.jsx";
-import MapBlock from "./map.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -263,7 +262,62 @@ const router = createBrowserRouter([
   {
     path: "EditDonorPage",
     element: <div> <EditDonorPage /></div>
-  }
+  }, {
+    path: "OrganizationProfile",
+    element: <div> <OrganizationProfile /></div>
+  },
+  {
+    path: "EditOrganizationProfile",
+    element: <div> <EditOrganizationProfile /></div>
+  },
+  {
+    path: "FulfilledPage/:id",
+    element: <div> <FulfilledDetails /></div>
+  },
+  {
+    path: "FulfilledPage",
+    element: <div> <FulfilledPage /></div>
+  },
+  {
+    path: "DonorFDetails",
+    element: <div> <DonorFDetails /></div>
+  },
+  {
+    path: "DonorListPage",
+    element: <div><DonorListPage /></div>,
+  },
+  {
+    path: "DonorListPage/:id",
+    element: <div><DonorListDetails /></div>,
+  },
+  {
+    path: "OrganizationListPage",
+    element: <div><OrganizationListPage /></div>,
+  },
+  {
+    path: "OrganizationListPage/:id",
+    element: <div><OrganizationListDetails /></div>,
+  },
+  {
+    path: "PasswordManagement",
+    element: <div><PasswordManagement /></div>,
+  },
+  {
+    path: "RegOrganizationPage",
+    element: <div><RegOrganizationPage /></div>,
+  },
+  {
+    path: "RegOrganizationPage/:id",
+    element: <div><RegOrganizationDetails /></div>,
+  },
+  {
+    path: "RegDonorsPage",
+    element: <div><RegDonorsPage /></div>,
+  },
+  {
+    path: "RegDonorsPage/:id",
+    element: <div><RegDonorsDetails /></div>,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

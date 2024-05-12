@@ -574,6 +574,18 @@ label {
   margin-right: 200px;
 }
 
+.avatar {
+  /* Center-align the text and content within the div */
+  text-align: center;
+
+  /* Add some padding and margin for spacing */
+  padding: 10px;
+  margin: 10px;
+
+  /* Optional background color for visual distinction */
+
+}
+
 
 
 
