@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import search_white from "./assets/search-w.png";
 import guc from "./assets/image.png";
+import outLogo from './assets/last-logo.png'
 import { Link } from "react-router-dom";
 import Notification from "./Notification";
 import { useNavigate } from "react-router-dom";
@@ -27,7 +28,7 @@ const Nav = () => {
   const [search, setSearch] = useState("");
   return (
     <div className="nav">
-      <img src={guc} alt="" className="logo" />
+      <img src={outLogo} alt="" className="logo" />
       <ul className="navbar-links">
         <li>
           <Link to="/">Home</Link>
@@ -37,7 +38,6 @@ const Nav = () => {
         </li>
         <li className="dropdown">
           Donations
-          
           <ul className="dropdown-menu">
             <li><Link to="/BloodDonationPage">Blood</Link></li>
             <li><Link to="/MedicalDonationPage">Medical Supplies</Link></li>

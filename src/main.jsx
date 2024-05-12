@@ -45,12 +45,13 @@ import OrganizationDetails from './Organizations/OrganizationDetails.jsx'
 import DonationDetails from "./detailsOfDonation.jsx";
 import Doctor from './doctor.jsx'
 import Teacher from "./teacher.jsx";
+import MapBlock from "./map.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <div>
-        <App />
+        <MapBlock/>
       </div>
     ),
   },
