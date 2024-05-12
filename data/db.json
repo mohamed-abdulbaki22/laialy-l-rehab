@@ -31,7 +31,7 @@
       "age": "18-20",
       "season": "spring",
       "material": "cotton",
-      "quantity requested": 4
+      "quantity requested": 3
     },
     {
       "id": "4",
@@ -967,7 +967,7 @@
     },
     {
       "id": "2",
-      "img": "https://th.bing.com/th/id/R.1f75f1bf3fb9ca8b5d4b85ebe927e79b?rik=jTrTb%2bFNmqWs%2bg&pid=ImgRaw&r=0",
+      "img": "src/assets/myProfile.png",
       "username": "rabie50",
       "firstName": "rabie",
       "lastName": "salah",
