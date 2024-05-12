@@ -36,7 +36,7 @@ const AdminNav = () => {
             {/* Add more features as needed */}
           </ul>
         </li>
-        <li><Link to="/about">About</Link></li>
+      
       </ul>
     
       <Link to="/OrganizationLogin" className="log-out">Log out</Link>
@@ -45,4 +45,4 @@ const AdminNav = () => {
   );
 };
 
-export default AdminNav;
+export default AdminNav;

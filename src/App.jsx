@@ -32,11 +32,11 @@ function App() {
           path="CompletedDonation"
         />
         <Card
-          title="Blood"
+          title="School"
           img="https://th.bing.com/th/id/OIP.4lILxx7gOtGR6VaiI-KquQHaE8?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
           description={
             <div>
-              <h4>Hospital 1</h4>
+              <h4>Organizatio 4</h4>
               <p>20/3/2022</p>
             </div>
           }
@@ -44,7 +44,7 @@ function App() {
           path="CompletedDonation"
         />
         <Card
-          title="Clothes"
+          title="Food"
           img="https://th.bing.com/th/id/OIP.4lILxx7gOtGR6VaiI-KquQHaE8?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
           description={
             <div>

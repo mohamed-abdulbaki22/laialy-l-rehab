@@ -62,7 +62,7 @@ import RegOrganizationPage from './RegOrganizations/RegOrganizationPage.jsx'
 import RegDonorsPage from './RegDonors/RegDonorsPage.jsx'
 
 import CompletedDonation from "./CompletedDonation.jsx";
-// import AdminHomePage from "./AdminHomePage.jsx";
+import AdminHomePage from './AdminHomPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -345,10 +345,10 @@ const router = createBrowserRouter([
     path: "RegDonorsPage/:id",
     element: <div><RegDonorsDetails /></div>,
   },
-  // {
-  //   path: "AdminHomePage",
-  //   element: <div><AdminHomePage /></div>,
-  // }
+  {
+    path: "AdminHomePage",
+    element: <div><AdminHomePage /></div>,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

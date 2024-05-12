@@ -113,7 +113,7 @@ const CompletedDonation = () => {
                   <p>
 
                     <br />- <strong>Quantity Requested:</strong>{" "}
-                    {Data["quantity requested"]}
+                    0
                   </p>
                   <div className="donation">
                     
