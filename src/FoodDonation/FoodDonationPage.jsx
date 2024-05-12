@@ -4,11 +4,6 @@ import Nav from '../Nav';
 
 import FoodGrid from './FoodGrid';
 
-
-
-
-
-
 function FoodDonationPage() {  
 const {
   data: Food,
