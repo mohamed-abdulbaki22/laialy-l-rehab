@@ -45,6 +45,13 @@ import OrganizationDetails from './Organizations/OrganizationDetails.jsx'
 import DonationDetails from "./detailsOfDonation.jsx";
 import Doctor from './doctor.jsx'
 import Teacher from "./teacher.jsx";
+// import OrganizationDetails from './Organization/OrganizationDetails.jsx'
+import OrganizationProfile from './Organization/OrganizationProfile.jsx'
+import EditOrganizationProfile from './Organization/EditOrganizationProfile.jsx'
+import FulfilledPage from './Organization/FulfilledPage.jsx'
+import FulfilledDetails from './Organization/FulfilledDetails.jsx'
+import DonorFDetails from './Organization/DonorFDetails.jsx'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -262,7 +269,26 @@ const router = createBrowserRouter([
   {
     path: "EditDonorPage",
     element: <div> <EditDonorPage /></div>
-  }
+  }, {
+    path: "OrganizationProfile",
+    element: <div> <OrganizationProfile /></div>
+  },
+  {
+    path: "EditOrganizationProfile",
+    element: <div> <EditOrganizationProfile /></div>
+  },
+  {
+    path: "FulfilledPage/:id",
+    element: <div> <FulfilledDetails /></div>
+  },
+  {
+    path: "FulfilledPage",
+    element: <div> <FulfilledPage /></div>
+  },
+  {
+    path: "DonorFDetails",
+    element: <div> <DonorFDetails /></div>
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
