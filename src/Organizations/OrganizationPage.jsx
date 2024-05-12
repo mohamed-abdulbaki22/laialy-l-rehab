@@ -13,6 +13,7 @@ const OrganizationPage = () => {
   const [area, setArea] = useState("");
   const [governorate, setGovernorate] = useState("");
   const [type, setType] = useState("");
+  const [name, setName] = useState("");
 
   return (
     <div className="OrganizationPage">
@@ -22,6 +23,14 @@ const OrganizationPage = () => {
           <h2>Registered Organizations</h2>
 
           <div className="filter-logic">
+            <label>Search by Organization Name</label>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
+            />
             <label>filter by area:</label>
             <select
               value={area}
@@ -83,7 +92,8 @@ const OrganizationPage = () => {
             (item) =>
               (type === "" || item.type === type) &&
               (governorate === "" || item.governorate === governorate) &&
-              (area === "" || area === item.area)
+              (area === "" || area === item.area) &&
+              (name === "" || item.author.includes(name))
           )}
         />
 
