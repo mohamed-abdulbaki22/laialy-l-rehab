@@ -51,6 +51,15 @@ import EditOrganizationProfile from './Organization/EditOrganizationProfile.jsx'
 import FulfilledPage from './Organization/FulfilledPage.jsx'
 import FulfilledDetails from './Organization/FulfilledDetails.jsx'
 import DonorFDetails from './Organization/DonorFDetails.jsx'
+import DonorListDetails from './DonorListA/DonorListDetails.jsx' 
+import OrganizationListDetails from './OrganizationListA/OrganizationListDetails.jsx'
+import RegOrganizationDetails from './RegOrganizations/RegOrganizationDetails.jsx' 
+import RegDonorsDetails from './RegDonors/RegDonorsDetails.jsx'
+import DonorListPage from './DonorListA/DonorListPage.jsx'
+import OrganizationListPage from './OrganizationListA/OrganizationListPage.jsx'
+import PasswordManagement from './PasswordManagement.jsx'
+import RegOrganizationPage from './RegOrganizations/RegOrganizationPage.jsx'
+import RegDonorsPage from './RegDonors/RegDonorsPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -288,6 +297,42 @@ const router = createBrowserRouter([
   {
     path: "DonorFDetails",
     element: <div> <DonorFDetails /></div>
+  },
+  {
+    path: "DonorListPage",
+    element: <div><DonorListPage /></div>,
+  },
+  {
+    path: "DonorListPage/:id",
+    element: <div><DonorListDetails /></div>,
+  },
+  {
+    path: "OrganizationListPage",
+    element: <div><OrganizationListPage /></div>,
+  },
+  {
+    path: "OrganizationListPage/:id",
+    element: <div><OrganizationListDetails /></div>,
+  },
+  {
+    path: "PasswordManagement",
+    element: <div><PasswordManagement /></div>,
+  },
+  {
+    path: "RegOrganizationPage",
+    element: <div><RegOrganizationPage /></div>,
+  },
+  {
+    path: "RegOrganizationPage/:id",
+    element: <div><RegOrganizationDetails /></div>,
+  },
+  {
+    path: "RegDonorsPage",
+    element: <div><RegDonorsPage /></div>,
+  },
+  {
+    path: "RegDonorsPage/:id",
+    element: <div><RegDonorsDetails /></div>,
   },
 ]);
 
