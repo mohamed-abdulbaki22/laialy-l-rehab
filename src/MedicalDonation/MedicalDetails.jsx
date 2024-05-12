@@ -65,10 +65,10 @@ const MedicalDetails = () => {
                       <p>
                         <strong>Details:</strong>
                         <br />- <strong>Type:</strong> {Supplies.type}
-                        <br />- <strong>Gender:</strong> {Supplies.gender}
-                        <br />- <strong>Age Group:</strong> {Supplies.age}
-                        <br />- <strong>Season:</strong> {Supplies.season}
-                        <br />- <strong>Material:</strong> {Supplies.material}
+                        <br />- <strong>Name:</strong> {Supplies.name}
+                        {/* <br />- <strong>Age Group:</strong> {Supplies.age} */}
+                        <br />- <strong>Usage:</strong> {Supplies.use}
+                        {/* <br />- <strong>Material:</strong> {Supplies.material} */}
                         <br />- <strong>Quantity Requested:</strong>{" "}
                         {Supplies["quantity requested"]}
                       </p>
