@@ -28,7 +28,7 @@ const Nav = () => {
   const [search, setSearch] = useState("");
   return (
     <div className="nav">
-      <img src={outLogo} alt="" className="logo" />
+      <img src={guc} alt="" className="logo" />
       <ul className="navbar-links">
         <li>
           <Link to="/">Home</Link>

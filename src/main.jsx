@@ -45,12 +45,28 @@ import OrganizationDetails from './Organizations/OrganizationDetails.jsx'
 import DonationDetails from "./detailsOfDonation.jsx";
 import Doctor from './doctor.jsx'
 import Teacher from "./teacher.jsx";
+// import OrganizationDetails from './Organization/OrganizationDetails.jsx'
+import OrganizationProfile from './Organization/OrganizationProfile.jsx'
+import EditOrganizationProfile from './Organization/EditOrganizationProfile.jsx'
+import FulfilledPage from './Organization/FulfilledPage.jsx'
+import FulfilledDetails from './Organization/FulfilledDetails.jsx'
+import DonorFDetails from './Organization/DonorFDetails.jsx'
+import DonorListDetails from './DonorListA/DonorListDetails.jsx' 
+import OrganizationListDetails from './OrganizationListA/OrganizationListDetails.jsx'
+import RegOrganizationDetails from './RegOrganizations/RegOrganizationDetails.jsx' 
+import RegDonorsDetails from './RegDonors/RegDonorsDetails.jsx'
+import DonorListPage from './DonorListA/DonorListPage.jsx'
+import OrganizationListPage from './OrganizationListA/OrganizationListPage.jsx'
+import PasswordManagement from './PasswordManagement.jsx'
+import RegOrganizationPage from './RegOrganizations/RegOrganizationPage.jsx'
+import RegDonorsPage from './RegDonors/RegDonorsPage.jsx'
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <div>
-        <App/>
+        <App />
       </div>
     ),
   },
