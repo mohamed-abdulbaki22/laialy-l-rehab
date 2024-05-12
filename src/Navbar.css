@@ -183,3 +183,8 @@
     height: 50px;
     cursor: pointer;
   }
+
+  .profile-pic{
+    cursor: pointer;
+    margin-left: 10px;
+  }

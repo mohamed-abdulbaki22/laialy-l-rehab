@@ -255,10 +255,10 @@ const router = createBrowserRouter([
     path: "DonorPage",
     element: <div> <DonorPage /></div>
   },
-  {
-    path: "DonorPage/:id",
-    element: <div><DonorPage /></div>,
-  },
+  // {
+  //   path: "DonorPage/:id",
+  //   element: <div><DonorPage /></div>,
+  // },
   {
     path: "EditDonorPage",
     element: <div> <EditDonorPage /></div>

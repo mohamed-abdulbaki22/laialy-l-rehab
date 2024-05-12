@@ -566,6 +566,13 @@ label {
   transform: translate(-50%, -50%);
 }
 
+/* Add this CSS to your existing stylesheet */
+.avatar img {
+  border-radius: 50%; /* Makes the image round */
+  padding: auto;
+  border: 10px solid #4caf50;
+  margin-right: 200px;
+}
 
 
 
