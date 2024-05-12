@@ -50,7 +50,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <div>
-        <MapBlock/>
+        <App/>
       </div>
     ),
   },
