@@ -75,7 +75,7 @@
       "age": "5-7",
       "season": "spring",
       "material": "cotton",
-      "quantity requested": 12
+      "quantity requested": 9
     },
     {
       "id": "8",
@@ -98,6 +98,17 @@
       "season": "summer",
       "material": "cotton",
       "quantity requested": "12"
+    },
+    {
+      "id": "138b",
+      "author": "ClothesNew",
+      "ClothesType": "shirt",
+      "age": "7-10",
+      "gender": "male",
+      "season": "winter",
+      "img": "",
+      "material": "cotton",
+      "quantity requested": 2
     }
   ],
   "Cards": [
@@ -177,7 +188,7 @@
       "type": "stationary",
       "name": "pen",
       "img": "src/assets/pen.jpg",
-      "quantity requested": 17
+      "quantity requested": 14
     },
     {
       "id": "7",
@@ -395,7 +406,7 @@
       "name": "Blood Pressure Monitor",
       "img": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2019/12/shutterstock_730380310.jpg",
       "use": "To measure the blood pressure of patients accurately",
-      "quantity requested": "1"
+      "quantity requested": 0
     },
     {
       "id": "5",
