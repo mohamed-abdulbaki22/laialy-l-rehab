@@ -49,7 +49,7 @@ const DonationDetails = () => {
           </select>
           <button type="submit">Submit</button> {/* Changed button type to submit */}
           <button type="cancel" onClick={() =>
-            window.location.href="/"}> Cancel</button>
+            window.location.href="/Home"}> Cancel</button>
         </form>
         
       </div>

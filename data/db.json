@@ -20,7 +20,7 @@
       "age": "20-30",
       "season": "winter",
       "material": "wool",
-      "quantity requested": 3
+      "quantity requested": 2
     },
     {
       "id": "3",
@@ -137,7 +137,7 @@
       "edition": "1",
       "summary": "coming soon",
       "img": "src/assets/book.jpg",
-      "quantity requested": 6
+      "quantity requested": 5
     },
     {
       "id": "3",
@@ -377,7 +377,7 @@
       "name": "Hospital Bed",
       "img": "https://www.gbhealthcare.co.uk/cdn/shop/articles/hospital-bed-home-care_1024x1024.jpg",
       "use": "To provide a comfortable resting place for patients in healthcare facilities",
-      "quantity requested": 5
+      "quantity requested": 4
     },
     {
       "id": "3",
@@ -436,7 +436,7 @@
       "governorate": "cairo",
       "area": "Al tagamo3",
       "hospitalAddress": "address1",
-      "quantity requested": 2
+      "quantity requested": 0
     },
     {
       "id": "2",
@@ -448,7 +448,7 @@
       "governorate": "other",
       "area": "suez-canal",
       "hospitalAddress": "address2",
-      "quantity requested": 3
+      "quantity requested": 1
     },
     {
       "id": "3",
@@ -472,7 +472,7 @@
       "governorate": "cairo",
       "area": "m3adi",
       "hospitalAddress": "address4",
-      "quantity requested": "1"
+      "quantity requested": 0
     },
     {
       "id": "5",

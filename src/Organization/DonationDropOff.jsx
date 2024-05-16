@@ -44,7 +44,7 @@ const DonationDropOff = () => {
           
           <button type="submit">Submit</button> {/* Changed button type to submit */}
           <button type="cancel" onClick={() =>
-            window.location.href="/"}> Cancel</button>
+            window.location.href="/OrgazizationHomePage"}> Cancel</button>
         </form>
         
       </div>

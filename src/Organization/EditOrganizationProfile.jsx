@@ -12,7 +12,7 @@ const UpdateOrDeletePage = () => {
     data: Data,
     error,
     isPending,
-  } = useFetch("http://localhost:4000/myposts/" + id);
+  } = useFetch("http://localhost:4000/Organization/"+id );
   const [count, setCount] = useState(0)
 
   // const updateDataInJson = async (id, updatedQuantity) => {
