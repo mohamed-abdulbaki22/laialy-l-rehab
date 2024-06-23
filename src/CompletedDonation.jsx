@@ -118,7 +118,7 @@ const CompletedDonation = () => {
                   <div className="donation">
                     
                     <button onClick={() => {
-                      window.location.href = "/"
+                      window.location.href = "/Home"
                     }
                     }>Back</button>
                   </div>
