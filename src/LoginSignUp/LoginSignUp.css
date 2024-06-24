@@ -1,0 +1,148 @@
+/* Existing CSS */
+.container1 {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    background: #fff;
+    padding-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.container1:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.header1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text1 {
+    color: #103ae1;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline1 {
+    width: 61px;
+    height: 6px;
+    background: #103ae1;
+    border-radius: 9px;
+}
+
+.inputs1 {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input1 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input1 img {
+    margin: 0px 30px;
+    width: 24px;
+    height: 24px;
+}
+
+.input1 input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.submit-container1 {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit1,
+.submit2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.submit1 {
+    color: #fff;
+    background: #103ae1;
+}
+
+.submit1:active {
+    transform: scale(0.95);
+    background-color: #0d32b8;
+}
+
+.submit2 a {
+    color: #103ae1;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.submit2 a:active {
+    transform: scale(0.95);
+    color: #0d32b8;
+}
+
+.showPassword {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.error-message {
+    font-size: 20px;
+    color: red;
+}
+
+/* Add styles for select elements */
+.select1 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+    padding: 0px 30px;
+}
+
+.select1 select {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}

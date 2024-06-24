@@ -63,19 +63,22 @@ import RegDonorsPage from './RegDonors/RegDonorsPage.jsx'
 
 import CompletedDonation from "./CompletedDonation.jsx";
 import AdminHomePage from './AdminHomPage.jsx';
+import LoginSignUp from "./LoginSignUp/LoginSignUp.jsx";
+import GeneralSignUp from "./LoginSignUp/generalSignUp.jsx";
+import DonorRegisteration from "./LoginSignUp/donorRegisteration.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <div>
-        <OrganizationLogin />
+        <LoginSignUp />
       </div>
     ),
   },
   {
-    path: "OrganizationRegistraion",
-    element: <div><OrganizationRegistraion /></div>,
+    path: "RegistrationForm/2",
+    element: <div><DonorRegisteration /></div>,
   },
   {
     path: "Home",
@@ -118,7 +121,7 @@ const router = createBrowserRouter([
     element: <div><DonationDropOff /></div>,
   },
   {
-    path: "RegistrationForm",
+    path: "RegistrationForm/1",
     element: <div><RegistrationForm /></div>,
   },
   {
@@ -352,6 +355,10 @@ const router = createBrowserRouter([
   {
     path: "AdminHomePage",
     element: <div><AdminHomePage /></div>,
+  },
+  {
+    path: "generalSignUp",
+    element: <div><GeneralSignUp/></div>,
   }
 ]);
 
